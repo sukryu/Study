@@ -12,6 +12,9 @@ function ListNode(val, next) {
 }
 
 function hasCycle(head) {
+
+    if (head === null) return false;
+
     let slow = head;
     let fast = head;
 
